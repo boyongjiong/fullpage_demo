@@ -63,49 +63,49 @@ fullpage.js支持IE8+及其它主流浏览器
 
 ###配置
 ####1.选项
-|选项|类型|默认值|说明|
-|--|--|--|--|
-|verticalCentered|字符串|true|内容是否垂直居中|
-|resize|布尔值|false|字体是否随着窗口缩放而缩放|
-|slidesColor|函数|无|设置背景颜色|
-|anchors|数组|无|定义锚链接|
-|scrollingSpeed|整数|700|滚动速度，单位为毫秒|
-|easing|字符串|easeInQuart|滚动动画方式|
-|menu|布尔值|false|绑定菜单，设定的相关属性与anchors的值对应后，菜单可以控制滚动|
-|navigation|布尔值|false|是否显示项目导航|
-|navigationPosition|布尔值|right|项目导航的位置，可选left或right|
-|navigationColor|字符串|#000|项目导航的颜色|
-|navigationTooltips|数组|空|项目导航的tip|
-|slidesNavigation|布尔值|false|是否显示左右滑块的项目导航|
-|slidesNavPosition|布尔值|bottom|左右滑块项目导航的位置，可选top或bottom|
-|controlArrowColor|字符串|#fff|左右滑块箭头的背景颜色|
-|loopBottom|布尔值|false|滚动到最底部后是否滚回顶部|
-|loopTop|布尔值|false|滚动到最顶部后是否滚底部|
-|loopHorizontal|布尔值|true|左右滑块是否循环滑动|
-|autoScrolling|布尔值|true|是否使用插件的滚动方式，如果选择false，则会出现浏览器自带的滚动条|
-|scrollOverflow|布尔值|false|内容超过满屏后是否显示滚动条|
-|css3|布尔值|false|是否使用CSS3 transforms滚动|
-|paddingTop|字符串|0|与顶部的距离|
-|paddingBottom|字符串|0|与底部距离|
-|fixedElement|字符串|无||
-|normalScrollElement||无||
-|keyboardScroll|布尔值|true|是否使用键盘方向键导航|
-|touchSensitivity|整数|5||
-|continuousVertical|布尔值|false|是否循环滚动，与loopTop及loopBottom不兼容|
-|animateAnchor|布尔值|true||
+| 选项 | 类型 | 默认值 | 说明 |
+| -- | -- | -- | -- |
+| verticalCentered | 字符串 | true | 内容是否垂直居中 |
+| resize | 布尔值 | false | 字体是否随着窗口缩放而缩放 |
+| slidesColor | 函数 | 无 | 设置背景颜色 |
+| anchors | 数组 | 无 | 定义锚链接 |
+| scrollingSpeed | 整数 | 700 | 滚动速度，单位为毫秒 |
+| easing | 字符串 | easeInQuart | 滚动动画方式 |
+| menu | 布尔值 | false | 绑定菜单，设定的相关属性与anchors的值对应后，菜单可以控制滚动 |
+| navigation | 布尔值 | false | 是否显示项目导航 |
+| navigationPosition | 布尔值 | right | 项目导航的位置，可选left或right |
+| navigationColor | 字符串 | #000 | 项目导航的颜色 |
+| navigationTooltips | 数组 | 空 | 项目导航的tip |
+| slidesNavigation | 布尔值 | false | 是否显示左右滑块的项目导航 |
+| slidesNavPosition | 布尔值 | bottom | 左右滑块项目导航的位置，可选top或bottom |
+| controlArrowColor | 字符串 | #fff | 左右滑块箭头的背景颜色 |
+| loopBottom | 布尔值 | false | 滚动到最底部后是否滚回顶部 |
+| loopTop | 布尔值 | false | 滚动到最顶部后是否滚底部 |
+| loopHorizontal | 布尔值 | true | 左右滑块是否循环滑动 |
+| autoScrolling | 布尔值 | true | 是否使用插件的滚动方式，如果选择false，则会出现浏览器自带的滚动条 |
+| scrollOverflow | 布尔值 | false | 内容超过满屏后是否显示滚动条 |
+| css3 | 布尔值 | false | 是否使用CSS3 transforms滚动 |
+| paddingTop | 字符串 | 0 | 与顶部的距离 |
+| paddingBottom | 字符串 | 0 | 与底部距离 |
+| fixedElement | 字符串 | 无 | |
+| normalScrollElement | | 无 | |
+| keyboardScroll | 布尔值 | true | 是否使用键盘方向键导航 |
+| touchSensitivity | 整数 | 5 | |
+| continuousVertical | 布尔值 | false | 是否循环滚动，与loopTop及loopBottom不兼容 |
+| animateAnchor | 布尔值 | true | |
 
 ####2.方法
-|**名称**|**说明**|
-|--|--|
-|moveSectionUp()|向上滚动|
-|moveSectionDown()|向下滚动|
-|moveTo(section,slide)|滚动到|
-|moveSlideRight()|slide向右滚动|
-|moveSlideLeft()|slide向左滚动|
-|setAutoScrolling()|设置页面滚动方式，设置为true时自动滚动|
-|setAllowScrolling()|添加或删除鼠标滚轮/触控板控制|
-|setKeyboardScrolling()|添加或删除键盘方向键控制|
-|setScrollingSpeed()|定义以毫秒为单位的滚动速度|
+| **名称** | **说明** |
+| -- | -- |
+| moveSectionUp() | 向上滚动 |
+| moveSectionDown() | 向下滚动 |
+| moveTo(section,slide) | 滚动到 |
+| moveSlideRight() | slide向右滚动 |
+| moveSlideLeft() | slide向左滚动 |
+| setAutoScrolling() | 设置页面滚动方式，设置为true时自动滚动 |
+| setAllowScrolling() | 添加或删除鼠标滚轮/触控板控制 |
+| setKeyboardScrolling() | 添加或删除键盘方向键控制 |
+| setScrollingSpeed() | 定义以毫秒为单位的滚动速度 |
 
 ####3.回调函数
 
