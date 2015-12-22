@@ -109,7 +109,7 @@ fullpage.js支持IE8+及其它主流浏览器
 
 | paddingBottom | 字符串 | 0 | 与底部距离 |
 
-| fixedElement | 字符串 | 无 | |
+| fixedElement | 字符串 | 无 | null |
 
 | normalScrollElement | | 无 | |
 
