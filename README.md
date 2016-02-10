@@ -50,7 +50,7 @@ fullpage.js支持IE8+及其它主流浏览器
 激活fullpage
 ```
 <script>
-	$(document).ready(function() {
+	$(document).ready(function(){
 		$('#fullpage').fullpage({
 			navigation: true,
 			sectionsColor: ['#6E97B6','#446535','#BFC3C4','#11457C'],
