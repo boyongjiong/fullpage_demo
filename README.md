@@ -35,6 +35,7 @@ fullpage.js支持IE8+及其它主流浏览器
 ####2.HTML
 ```
 <div id="fullpage">
+
 	<div class="section">this is the 1st page</div>
 		<div class="section">
 			<div class="slide">slide1</div>
