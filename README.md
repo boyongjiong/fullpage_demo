@@ -35,28 +35,28 @@ fullpage.js支持IE8+及其它主流浏览器
 ####2.HTML
 ```
 <div id="fullpage">
-		<div class="section">this is the 1st page</div>
+	<div class="section">this is the 1st page</div>
 		<div class="section">
 			<div class="slide">slide1</div>
 			<div class="slide">slide2</div>
 			<div class="slide">slide3</div>
 			<div class="slide">slide4</div>
 		</div>
-		<div class="section">this is the 3rd page</div>
-		<div class="section">this is the 4th page</div>
-	</div>
+	<div class="section">this is the 3rd page</div>
+	<div class="section">this is the 4th page</div>
+</div>
 ```
 #### 3.javascript
 激活fullpage
 ```
 <script>
-	$(document).ready(function(){
-		$('#fullpage').fullpage({
-			navigation: true,
-			sectionsColor: ['#6E97B6','#446535','#BFC3C4','#11457C'],
-		});
+$(document).ready(function(){
+	$('#fullpage').fullpage({
+		navigation: true,
+		sectionsColor: ['#6E97B6','#446535','#BFC3C4','#11457C'],
 	});
-	</script>
+});
+</script>
 ```
 
 ###配置
