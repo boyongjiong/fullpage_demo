@@ -4,7 +4,7 @@
 ### 简介
 `fullpage.js`是一个基于jQuery的全屏滚动插件，它能够很方便、很轻松的制作出全屏网站。
 
-![fullpage.js](http://www.uedsc.com/wp-content/uploads/2014/06/77.png)
+![fullpage.js](https://alvarotrigo.com/fullPage/)
 
 ### 主要功能
 
